@@ -1,0 +1,229 @@
+body {
+font-family: 'Open Sans', sans-serif;
+color:#434242;
+}
+
+h1, h2, h3 {
+	margin: 20px 0;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 700;
+}
+
+h2 {
+	color: #863472;
+	font-size: 3.5em;
+	font-weight: 300;
+	text-align: center;
+}
+
+h3 {
+	color:#863472;
+	font-weight: 300;
+}
+h4 {
+	color: #434242;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+p {
+	color:#434242;
+}
+hr {
+	margin: 40px 0;
+}
+
+li {
+	line-height: 2;
+}
+
+
+a {
+	color: #863472;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background-image: url(new_Images/laptopandglasses.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+	margin: 0;
+}
+
+.jumbotron .container {
+z-index: 4;
+color: #fff;
+position:relative;
+top: 30%;
+text-align: center;
+}
+
+.jumbotron .container h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+.jumbotron .overlay {
+    background-color: #863472;
+		position: absolute;
+		top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+		z-index: 0;
+		opacity: 60%;
+	}
+
+	.jumbotron .container p {
+		font-size: 2em;
+		font-weight: 200;
+		color: #fff;
+	}
+
+	/* Navigation */
+
+	.navbar-brand {
+	width:100px;
+	padding:0;
+	}
+	.nav-item{
+		paodding: 0 10px;
+		margin: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+	.navbar-collapse {
+		margin-left: 10px;
+	}
+
+
+/* sections */
+
+.colored-section {
+  background-color: #FFCDC9;
+  padding: 40px 140px;
+}
+
+.white-section{
+  background-color: #ffff;
+  padding: 40px 140px;
+}
+
+.dark-section {
+	background-color: #434242;
+	padding: 20px 140px;
+}
+
+
+/* profile */
+
+p.lead {
+    text-align: center;
+		font-size: 1.5em;
+		font-weight: 300;
+		padding-bottom: 20px;
+}
+
+.Profile {
+  text-align: left;
+}
+
+.Profile p {
+line-height: 1.64;
+}
+
+.profile-image {
+  text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Experience Section */
+.experience-title {
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.experiences {
+	margin-bottom: 30px;
+}
+
+.glyphicon {
+	color: #863472;
+}
+
+
+/* Abilities Section  */
+
+.no-bullets {
+	list-style: none;
+
+	padding: 0px
+}
+.ability-score{
+	float: right;
+	margin-right: 30px;
+}
+.check-filled{
+	color: #863472;
+}
+
+.check-unfilled{
+	color: #DFE0E0;
+}
+
+/* Portfolio Section */
+
+.portfolio-example{
+position: relative;
+overflow: hidden;
+}
+
+.portfolio-image {
+	width: 100%;
+}
+
+.portfolio-icon{
+position: absolute;
+top: 0px;
+right: 0px;
+background: #863472;
+padding: 3%;
+color: #fff;
+}
+
+.figcaption-text h3 {
+	margin:5px 0;
+}
+/* Footer */
+
+#footer{
+	text-align: center;
+}
+
+.footer-icon {
+  margin: 20px 20px;
+	color:#fff;
+}
+
+.dark-section p {
+	color: #fff;
+}
+
+
+@media (max-width: 769px) {
+	.Profile {
+		text-align: center;
+	}
+}
