@@ -48,7 +48,11 @@ a {
 /* Jumbotron */
 
 .jumbotron {
+<<<<<<< HEAD
 	background-image: url('laptopandglasses.jpg');
+=======
+	background-image: url(/laptopandglasses.jpg);
+>>>>>>> 8b9cd1b81d351801b2c3ddafa9f19f7c9b912c69
 	background-size: cover;
 	background-repeat: no-repeat;
   height: 100vh;
