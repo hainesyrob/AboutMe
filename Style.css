@@ -48,7 +48,7 @@ a {
 /* Jumbotron */
 
 .jumbotron {
-	background-image: url(new_Images/laptopandglasses.jpg);
+	background-image: url(laptopandglasses.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
   height: 100vh;
