@@ -48,7 +48,7 @@ a {
 /* Jumbotron */
 
 .jumbotron {
-	background-image: url('laptopandglasses.jpg');
+	background-image: url('https://hainesyrob.github.io/InteractiveCV/laptopandglasses.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
   height: 100vh;
