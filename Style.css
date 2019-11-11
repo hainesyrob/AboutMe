@@ -71,7 +71,7 @@ a {
     display: inline-block;
 }
 
-.jumbotron .verlay {
+.jumbotron .overlay {
     background-color: #863472;
 		position: absolute;
 		top: 0px;
