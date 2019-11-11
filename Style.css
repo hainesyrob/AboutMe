@@ -79,7 +79,7 @@ a {
     left: 0px;
     right: 0px;
 		z-index: 0;
-		opacity: 60%;
+		opacity: 0.5;
 	}
 
 	.jumbotron .container p {
