@@ -222,8 +222,16 @@ color: #fff;
 }
 
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
 	.Profile {
 		text-align: center;
 	}
+	.colored-section {
+	  padding: 40px 20px;
+	}
+
+	.white-section{
+		padding: 40px 20px;
+	}
+
 }
