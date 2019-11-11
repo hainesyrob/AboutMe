@@ -226,7 +226,9 @@ color: #fff;
 	.Profile {
 		text-align: center;
 	}
-	.experiences-title {
-		text-align: center;
-	}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
 }
