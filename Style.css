@@ -48,7 +48,7 @@ a {
 /* Jumbotron */
 
 .jumbotron {
-	background-image: url('https://hainesyrob.github.io/AboutMe/Laptopandcoffee.jpg');
+	background-image: url('Laptopandcoffee.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
   height: 100vh;
@@ -57,11 +57,11 @@ a {
 }
 
 .jumbotron .container {
-z-index: 4;
-color: #fff;
-position:relative;
-top: 30%;
-text-align: center;
+	z-index: 4;
+	color: #fff;
+	position:relative;
+	top: 30%;
+	text-align: center;
 }
 
 .jumbotron .container h1 {
@@ -71,7 +71,7 @@ text-align: center;
     display: inline-block;
 }
 
-.jumbotron .overlay {
+.jumbotron .verlay {
     background-color: #863472;
 		position: absolute;
 		top: 0px;
