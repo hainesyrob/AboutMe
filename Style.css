@@ -112,13 +112,12 @@ a {
 
 .colored-section {
   background-color: #FFCDC9;
-  padding-top: 40px;
-	padding-bottom: 40px;
+  padding: 40px 100px;
 }
 
 .white-section{
   background-color: #ffff;
-  padding: 40px 140px;
+	padding: 40px 100px;
 }
 
 .dark-section {
